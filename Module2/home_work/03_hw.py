@@ -27,5 +27,10 @@
 # 18 179.82 Rub.
 # 19 189.81 Rub.
 # 20 199.80 Rub.
-
-# TODO: your code here
+x = float(input("Enter some number"))
+i = 1
+x1=x
+while i <= 20:
+    i += 1
+    x1 += x
+    print(i, " ", x1)
