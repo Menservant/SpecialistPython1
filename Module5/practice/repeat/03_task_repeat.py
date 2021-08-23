@@ -1,5 +1,11 @@
-# Найдите количество чисел являющихся палиндромами в диапазоне от a до b включительно
-# Известно, что a и b целые положительные числа.
+def palindrome(of, to):
+    for number in range(of, to):
+        number = str(number)
+        rev_number = number[::-1]
+        mas = []
+        if (number == rev_number) == True:
+            mas.append(number)
+        return mas
 
-a = ...
-b = ...
+
+print(palindrome(10, 100))
