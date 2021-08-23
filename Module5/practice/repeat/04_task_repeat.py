@@ -4,7 +4,14 @@
 
 # Под пагинацией понимают показ ограниченной части информации на одной
 # веб-странице и вывода списка остальных страниц.
+import math
+
 
 def pagination(num_items, items_on_page):
-    pass
+    result = num_items / items_on_page
+    return math.ceil(result)
+
+
+print(pagination(50, 5))
+
 
