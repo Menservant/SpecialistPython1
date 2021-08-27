@@ -3,4 +3,6 @@
 # Формат выходных данных: Выведите целое число недель.
 # Уточнение: каждые 7 прошедших дней равны одной полной неделе.
 
-
+full_time = int(input("Enter count of days"))
+week = full_time // 7
+print(f"Count of week: {week}")
